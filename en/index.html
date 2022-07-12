@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="msvalidate.01" content="D077C36BAB238B3A396EE32C63939F5B" />
+        <meta name="author" content="reza rastegar" />
+        <meta name="keywords" content="reza rastegar, رضا رستگار, وبسایت رضا رستگار">
+        <meta name="description"
+            content="a Joniur Front End Developer. I am interested in the world of web, technology and digital marketing. I keep learning day after day and this path continues">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#13121c" />
+        <meta property="og:title" content="reza rastegar" />
+        <meta property="og:description"
+            content="a Joniur Front End Developer. I am interested in the world of web, technology and digital marketing. I keep learning day after day and this path continues" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://rezarastegar.ir" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:brand" content="reza rastegar" />
+        <meta property="og:locale" content="en" />
+        <meta name="twitter:site" content="@RRastegar2003" />
+        <meta property="twitter:title" content="reza rastegar" />
+        <meta property="twitter:description"
+            content="a Joniur Front End Developer. I am interested in the world of web, technology and digital marketing. I keep learning day after day and this path continues" />
+        <!-- Browser icon -->
+        <link rel="icon" href="./assets/images/en-logo.png">
+        <!-- Browser title -->
+        <title>reza rastegar | Front end web developer👨🏻‍💻</title>
+        <!-- Custom Styles -->
+        <link rel="stylesheet" href="./styles/en-style.css">
+        <!-- other links -->
+        <link rel="canonical" href="https://rezarastegar.ir/en" />
+        <!-- aos -->
+        <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+        <!-- Google Robots -->
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X678L7RFKG"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-X678L7RFKG');
+        </script>
+        <!-- clarity -->
+        <script type="text/javascript">
+            (function (c, l, a, r, i, t, y) {
+                c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+                t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+                y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+            })(window, document, "clarity", "script", "ce7vfz2u5h");
+        </script>
+    </head>
+
+<body id="aboutme">
+
+
+
+    <!--? - - - - - - - - Start Header component - - - - - - - - -->
+    <header class="main-header">
+        <div class="main-header-container container">
+            <nav class="navbar container">
+                <!-- image -->
+                <div class="main-header__logo">
+                    <a href="https://rezarastegar.ir/"><img src="./assets/images/en-logo.png" class="nav-logo"
+                            alt="reza rastegar logo"></a>
+                </div>
+                <!-- Desktop navbar list -->
+                <ul class="list nav__list" id="sideba">
+                    <li class="nav__item" onclick="aboutme()">About me</li>
+                    <li class="nav__item" onclick="skills()">Skills</li>
+                    <li class="nav__item" onclick="contact()">Contact me</li>
+                    <li class="nav__item">
+                        <img src="./assets/images/iran-flag.png" class="nav__item-en_flag" loading="lazy"
+                            class="lazyload" alt="usa flag">
+                        <a href="https://rezarastegar.ir">Persian</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile toggle -->
+    <div id="toggle"></div>
+    <div id="sidebar">
+        <ul>
+            <li onclick="aboutme()">About me</li>
+            <li onclick="skills()">Skills</li>
+            <li onclick="contact()">Contact me</li>
+            <a href="https://rezarastegar.ir">
+                <li>Persian</li>
+            </a>
+        </ul>
+    </div>
+    <!--? - - - - - - - - End Header component - - - - - - - - -->
+
+    <div id="particles-js"></div>
+
+    <!-- - - - - - - - - Start services component - - - - - - - - -->
+    <section class="about container block" id="about-me" data-aos="zoom-in" data-aos-duration="1500">
+        <div class="about__image">
+            <img src="./assets/images/reza.webp" alt="profile photo">
+        </div>
+        <div class="about__detail">
+            <h2 class="about__title"> <img src="./assets/images/svg/Profile.svg" class="title-icon" alt="Profile icon"
+                    loading="lazy" class="lazyload">About me</h2>
+            <p class="about__text">Hi. My name is Reza Rastegar, a Joniur Front End Developer. I am interested in the
+                world of web, technology and digital
+                marketing. I keep learning day after day and this path continues ...</p>
+
+            <div class="about-social">
+                <a href="https://www.linkedin.com/in/reza-rastegar-58ba7a20b" target="_blank">
+                    <img src="./assets/images/png/LinkedIn-white.png" loading="lazy" class="lazyload" alt="icon">
+                </a>
+                <a href="https://github.com/rezarastegar2003" loading="lazy" class="lazyload" target="_blank">
+                    <img src="./assets/images/png/Github-white.png" alt="icon">
+                </a>
+                <a href="https://twitter.com/RRastegar2003" loading="lazy" class="lazyload" target="_blank">
+                    <img src="./assets/images/png/Twitter-white.png" loading="lazy" class="lazyload" alt="icon">
+                </a>
+            </div>
+
+            <div class="about-arrow" onclick="more()">
+                <img src="./assets/images/png/about-arrow.png" alt="about arrow">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about container block" id="skills" id="more">
+        <div class="about__image services__image-2" data-aos="zoom-in" data-aos-duration="1500">
+            <img src="./assets/images/Skills.png" alt="skills photo" loading="lazy" class="lazyload">
+        </div>
+
+        <div class="about__detail about__detail-2" id="more">
+            <h2 class="services__title"><img src="./assets/images/svg/ShieldDone.svg" class="title-icon"
+                    alt="Shield Done icon" loading="lazy" class="lazyload">Skills</h2>
+            <div class="about__skills">
+                <a href="https://en.wikipedia.org/wiki/HTML" rel="nofollow" target="_blank">
+                    <p class="about__skills-1" data-aos="zoom-in" data-aos-duration="1500">Html5</p>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/CSS" rel="nofollow" target="_blank">
+                    <p class="about__skills-2" data-aos="zoom-in" data-aos-duration="1500">Css3</p>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" rel="nofollow" target="_blank">
+                    <p class="about__skills-3" data-aos="zoom-in" data-aos-duration="1500">Sass</p>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/WordPress" rel="nofollow" target="_blank">
+                    <p class="about__skills-5" data-aos="zoom-in" data-aos-duration="1500">Wordpress</p>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Git" rel="nofollow" target="_blank">
+                    <p class="about__skills-4" data-aos="zoom-in" data-aos-duration="1500">Git</p>
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Github" rel="nofollow" target="_blank">
+                    <p class="about__skills-6" data-aos="zoom-in" data-aos-duration="1500">Github</p>
+                </a>
+                <a href="#" onclick="myFunction()" rel=" nofollow">
+                    <p class="about__skills-7" data-aos="zoom-in" data-aos-duration="1500">Soon...!</p>
+                </a>
+            </div>
+    </section>
+    <!-- - - - - - - - - End services component - - - - - - - - -->
+
+    <!-- - - - - - - - - Start Google digital marketing component - - - - - - - - -->
+    <section class="google-digital">
+        <div class="google-digital-container container block">
+            <h2 data-aos="fade-down" data-aos-duration="2500">Google digital marketing certificate</h2>
+            <img class="google-digital_img" src="./assets/images/google-certificate-screenshot.png"
+                alt="google-certificate-screenshot" data-aos="fade-down" data-aos-duration="2500" loading="lazy"
+                class="lazyload">
+            <div class="google-digital_verify">
+                <p>Certificate ID: FXE MKQ DXA</p>
+                <a href="https://learndigital.withgoogle.com/digitalgarage/validate-certificate-code" target="_blank">
+                    <button class="work-post__btn ">Verify</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- - - - - - - - - End Google digital marketing component - - - - - - - - -->
+
+    <!-- - - - - - - - - Start open source component - - - - - - - - -->
+    <section class="open-source container block">
+        <div class="open-source_text">
+            <h2 data-aos="zoom-in" data-aos-duration="1500">Matnbaz Activity: The Iranian open-source community</h2>
+            <a href="https://matnbaz.net/en/github/rezarastegar2003" target="_blank" data-aos="zoom-in"
+                data-aos-duration="1500"><button>See my profile</button></a>
+        </div>
+        <div class="open-source_img">
+            <img src="./assets/images/open-source community-en.png" data-aos="zoom-in" data-aos-duration="1500"
+                alt="Matn baz Home page">
+        </div>
+
+        <div id="contact"></div>
+
+    </section>
+    <!-- - - - - - - - - End open source component - - - - - - - - -->
+
+    <!--? - - - - - - - - Start Contact form component - - - - - - - - -->
+    <section class="contact-form container block">
+
+        <div class="contact-form__text" data-aos="fade-down" data-aos-duration="1500">
+            <h2 class="about__title">Contact me</h2>
+            <p>You can send a message to contact me through this form. I will reply to emails soon.</p>
+            <img src="./assets/images/communication.png" loading="lazy" class="lazyload" alt="communication">
+        </div>
+
+        <form action="./successful/" method="POST" class="contact-form__input" id="form">
+
+            <div class="contact-form-name-email">
+                <div>
+                    <!-- Name -->
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" oninvalid="setCustomValidity('لطفا نام خود را وارد کنید')"
+                        required minlength="3">
+                </div>
+                <div>
+                    <!-- Email -->
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Example@gmail.com"
+                        oninvalid="setCustomValidity('لطفا ایمیل خود را وارد کنید')" required>
+                </div>
+            </div>
+            <!-- Subject -->
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" required minlength="5">
+            <!-- Message -->
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10" required></textarea>
+
+            <!-- Recaptcha v.2 -->
+            <div class="g-recaptcha" data-callback="captchaVerified"
+                data-sitekey="6LdL0FcgAAAAACNwxAslhVVAyFKasExRddmg2pP8"></div>
+            <!-- Submit button -->
+            <button id="submit" value="Send" type="submit" disabled>Send!</button>
+        </form>
+    </section>
+    <!--? - - - - - - - - End Contact form component - - - - - - - - -->
+
+    <!--? - - - - - - - - Start Footer component - - - - - - - - -->
+    <footer class="">
+        <div class="footer-container container block">
+
+            <!-- Start section(1) footer menu -->
+            <div class="footer__menu">
+                <div class="footer__title">
+                    <h3><img src="./assets/images/png/Menu.png" alt="ایکون دسترسی سریع" loading="lazy"
+                            class="lazyload">Quick access
+                    </h3>
+                </div>
+                <ul>
+                    <li onclick="aboutme()">About me</li>
+                    <li onclick="skills()">Skills</li>
+                    <li onclick="contact()">Contact me</li>
+                    <li class="footer-en">
+                        <img src="./assets/images/iran-flag.png" class="nav__item-en_flag" loading="lazy"
+                            class="lazyload" alt="iran flag">
+                        <a href="https://rezarastegar.ir">Persian</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End section(1) footer menu -->
+
+            <!-- Start section(2) footer contact -->
+            <div class="footer__contact">
+                <div class="footer__title">
+                    <h3><img src="./assets/images/png/Message.png" alt="Contact me" loading="lazy"
+                            class="lazyload">Contact me
+                    </h3>
+                </div>
+                <div class="footer__p">
+                    <p>Country : Ir, Mashhad</p>
+                    <a href="tel:09150716114">
+                        <p>Phone number : 09150716114</p>
+                    </a>
+                    <a href="mailto:info@rezarastegar.ir">
+                        <p>Email : info@rezarastegar.ir</p>
+                    </a>
+                </div>
+            </div>
+            <!-- End section(2) footer contact -->
+
+            <!-- Start section(3) footer social -->
+            <div class="footer__social">
+                <div class="footer__title">
+                    <h3><img src="./assets/images/png/Send.png" loading="lazy" class="lazyload" alt="Social media"
+                            loading="lazy" class="lazyload">Social media</h3>
+                </div>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/reza_rastegar2003" target="_blank">
+                        <img src="./assets/images/png/Instagram.png" loading="lazy" class="lazyload"
+                            alt="ایکون اینستاگرام">
+                    </a>
+                    <a href="https://www.linkedin.com/in/reza-rastegar-58ba7a20b" target="_blank">
+                        <img src="./assets/images/png/LinkedIn.png" loading="lazy" class="lazyload" alt="ایکون لینکدین">
+                    </a>
+                    <a href="https://github.com/rezarastegar2003" target="_blank">
+                        <img src="./assets/images/png/Github.png" loading="lazy" class="lazyload" alt="ایکون گیت هاب">
+                    </a>
+                    <a href="https://twitter.com/RRastegar2003" target="_blank">
+                        <img src="./assets/images/png/Twitter.png" loading="lazy" class="lazyload" alt="ایکون توییتر">
+                    </a>
+                    <a href="https://wa.me/989150716114?text=سلام" target="_blank">
+                        <img src="./assets/images/png/WhatsApp.png" loading="lazy" class="lazyload" alt="ایکون واتساپ">
+                    </a>
+                    <a href="https://t.me/reza23ee" target="_blank">
+                        <img src="./assets/images/png/Telegram.png" loading="lazy" class="lazyload" alt="ایکون تلگرام">
+                    </a>
+                </div>
+            </div>
+            <!-- End section(3) footer social -->
+
+    </footer>
+    <!--? - - - - - - - - End Footer component - - - - - - - - -->
+
+    <!-- - - - - - - - - Start script component - - - - - - - - -->
+    <!-- Start Aos -->
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- End Aos -->
+
+    <!-- Start Particles.js -->
+    <script src="./node_modules/particles.js/particles.js"></script>
+    <script src="./node_modules/particles.js/demo/js/app.js"></script>
+    <script>
+        particlesJS.load("particles-js", "assets/particles.json", function () {
+            console.log("callback - particles-js config loaded");
+        });
+    </script>
+    <!-- End Particles.js -->
+
+    <!---Start recaptcha --->
+    <!-- v.2 -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script>
+        function captchaVerified() {
+            var submitBtn = document.querySelector('#submit')
+            submitBtn.removeAttribute('disabled');
+        }
+    </script>
+    <!---End recaptcha --->
+
+    <!-- Start Lazysizes -->
+    <script src="./node_modules/lazysizes/lazysizes.min.js" async=""></script>
+    <!-- End Lazysizes -->
+
+    <!-- Start Main javascript -->
+    <script src="./js/main.js"></script>
+    <!-- End Main javascript -->
+    <!-- - - - - - - - - End script component - - - - - - - - -->
+</body>
+
+</html>
