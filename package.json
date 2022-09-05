@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "aos": "^2.3.4",
-    "lazysizes": "^5.3.2",
-    "particles.js": "^2.0.0",
-    "swiper": "^8.2.2"
-  }
-}
